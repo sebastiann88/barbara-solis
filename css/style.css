@@ -129,6 +129,19 @@ section.main-header {
 	padding-top: 3em;
 }
 
+.sidenav-item a {
+	font-size: 16px;
+	padding: 0 8px;
+}
+
+.sidenav-item a:hover {
+	text-decoration: underline;
+}
+
+nav.navigation-menu .sidenav-collapse .sidenav-link {
+	padding: 15px 3px 15px 18px;
+}
+
 .btn-red-menu {
 	position: fixed;
 	z-index: 1045;
