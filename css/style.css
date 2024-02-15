@@ -127,26 +127,27 @@ section.main-header {
 	color: #d60000;
 }
 
+.sidenav {
+	z-index: 1035;
+	padding-top: 3em;
+}
+
 .btn-red-menu {
 	position: fixed;
-	z-index: 5;
+	z-index: 1045;
 	color: #fff;
+	padding: 0.45em 0.95em;
 	background-color: #d60000;
 	border: none!important;
 	border-radius: 0 0 0.25rem 0;
 	box-shadow: none!important;
 }
 
-.btn-red-menu:focus {
-	color: #fff;
-	background-color: #d60000;
-	border: none!important;
-	box-shadow: none!important;
-}
-
+.btn-red-menu:focus,
+.btn-red-menu:active
 .btn-red-menu:hover {
 	color: #fff;
-	background-color: #ca1616;
+	background-color: #d60000;
 	border: none!important;
 	box-shadow: none!important;
 }
@@ -160,8 +161,9 @@ section.main-header {
 	padding-top: 0.35em;
 }
 
-nav#sidenav-1 {
-  background-color: #f5f2e8;
+nav.navigation-menu {
+	/*  background-color: #f8f6ef;*/
+	background-color: rgba(248, 246, 239, 0.95);
 }
 
 /* Genereal */

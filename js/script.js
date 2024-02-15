@@ -21,8 +21,36 @@ $(document).ready(function() {
   });
 
   if ( jQuery().hoverdir ) {
-      jQuery( 'a.portfolio-piece:hover div.portfolio-item' ).each( function() {
-        jQuery( this ).hoverdir();
-    } );
-  } // /hoverdir
+        jQuery( 'a.portfolio-piece:hover div.portfolio-item' ).each( function() {
+          jQuery( this ).hoverdir();
+      } );
+    } // /hoverdir
+
+  // Initialization for ES Users –– Navigation Menu
+  const sidenav = document.getElementById('full-screen-example');
+  const sidenavInstance = mdb.Sidenav.getInstance(sidenav);
+
+  let innerWidth = null;
+
+  const setMode = (e) => {
+    // Check necessary for Android devices
+    if (window.innerWidth === innerWidth) {
+      return;
+    }
+
+    innerWidth = window.innerWidth;
+
+    if (window.innerWidth < 1860) {
+      sidenavInstance.changeMode('over');
+      sidenavInstance.hide();
+    } else {
+      sidenavInstance.changeMode('side');
+      sidenavInstance.show();
+    }
+  };
+
+  setMode();
+
+  // Event listeners
+  window.addEventListener('resize', setMode);
 });
