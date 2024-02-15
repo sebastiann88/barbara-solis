@@ -110,6 +110,10 @@ strong, em, .red {
 	box-shadow: none!important;
 }
 
+.sidenav-collapse .sidenav-link {
+	padding-left: 2.75em;
+}
+
 .red-border {
 	border-top: 35px solid #d60000;
 	padding-top: 0.35em;
