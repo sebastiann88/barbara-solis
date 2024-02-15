@@ -34,9 +34,14 @@ main > div.main {
 
 /* Typography */
 
-h1 {
-	font-family: "Niconne", cursive;
-  font-weight: 400;
+h1 /*Use a value from 100 to 900*/ {
+  font-family: "Advent Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 112.5;
+}
   font-style: normal;
 	line-height: 1.025;
 	font-style: normal;
@@ -49,14 +54,15 @@ h1 {
 }
 
 h2 {
-	font-family: "Niconne", "Style Script", cursive;
-	font-size: 2.75em;
+	font-family: "Advent Pro", sans-serif;
+  font-optical-sizing: auto;
   font-weight: 400;
+  font-size: 2.25em;
   font-style: normal;
 }
 
 h3, h4, h5, h6 {
-	font-family: "Niconne", "Style Script", cursive;
+	font-family: "Advent Pro", sans-serif;
   font-weight: 400;
   font-style: normal;
   margin: 0;
@@ -69,7 +75,8 @@ h3 {
 
 p, li, a, .sidenav-link {
 	font-family: "Oxygen", sans-serif;
-	font-size: 19px;
+	font-size: 20px;
+	line-height: 1.35;
 }
 
 figure {
@@ -93,10 +100,8 @@ figcaption {
 
 strong, em, .red {
 	color: #d60000;
-}
-
-strong {
-	font-weight: normal;
+	font-weight: inherit;
+	font-style: inherit;
 }
 
 /* Header */
@@ -201,8 +206,8 @@ section.biography {
 	box-shadow: #e7e2d7 4px 4px 24px 2px;
 }
 
-section.biography h2 {
-	font-size: 2.75em;
+section.biography > div {
+	padding: 0 0 0.85em;
 }
 
 /* Audio & Media */
@@ -361,6 +366,7 @@ div.btn-group .btn-outline-secondary.active {
 
 figcaption {
 	font-size: 1.125em;
+	line-height: 1.25;
 }
 
 /* Footer */
