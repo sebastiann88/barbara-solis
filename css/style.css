@@ -125,6 +125,7 @@ section.main-header {
 .btn-red-menu {
 	position: fixed;
 	z-index: 5;
+	color: #fff;
 	background-color: #d60000;
 	border: none!important;
 	border-radius: 0 0 0.25rem 0;
@@ -132,12 +133,14 @@ section.main-header {
 }
 
 .btn-red-menu:focus {
+	color: #fff;
 	background-color: #d60000;
 	border: none!important;
 	box-shadow: none!important;
 }
 
 .btn-red-menu:hover {
+	color: #fff;
 	background-color: #ca1616;
 	border: none!important;
 	box-shadow: none!important;
@@ -151,7 +154,6 @@ section.main-header {
 	border-top: 35px solid #d60000;
 	padding-top: 0.35em;
 }
-
 
 nav#sidenav-1 {
   background-color: #f5f2e8;
