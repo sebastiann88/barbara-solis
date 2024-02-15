@@ -143,6 +143,7 @@ section.biography {
 	background-color: #f5f2e8;
 	padding: 1.15em 0 0 0;
 	margin: 1.75em 0;
+	box-shadow: #dfddd5 3px 2px 28px 5px;
 }
 
 section.biography h2 {
