@@ -1,0 +1,181 @@
+main {
+	display: flex;
+	position: relative;
+	flex-direction: column;
+	min-height: 100vh;
+	background-color: rgba(240, 234, 214, 0.5);
+	font-family: "Oxygen", sans-serif;
+	color: #523c3c;
+}
+
+main:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.45;
+  background-image: url("../img/pattern.png");
+	background-position: center;
+  background-size: 30em;
+  background-repeat: repeat;
+  background-position: 50% 0;
+}
+
+main > div.main {
+	position: relative;
+  flex: 1;
+  margin-top: 3em;
+}
+
+h1 {
+	font-family: "Niconne", cursive;
+  font-weight: 400;
+  font-style: normal;
+	line-height: 1.025;
+	font-style: normal;
+	font-size: 3.85rem;
+	margin-bottom: 0.35em;
+}
+
+.h1 {
+	font-family: "Niconne", cursive;
+}
+
+h2 {
+	font-family: "Style Script", cursive;
+	font-size: 2.75em;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h3, h4, h5, h6 {
+	font-family: "Style Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p, li, a, .sidenav-link {
+	font-family: "Oxygen", sans-serif;
+	font-size: 17px;
+}
+
+.sidenav-collapse .sidenav-link {
+	font-size: 15px;
+}
+
+.sidenav-primary .sidenav-item .sidenav-link:hover {
+	color: #d60000;
+} 
+
+ul li::marker {
+	font-family: "Niconne", cursive;
+	font-weight: 400;
+	font-style: normal;
+	color: #d60000;
+}
+
+a {
+	color: #d60000;
+}
+
+figcaption {
+	margin-top: 0.5em;
+}
+
+strong, em, .red {
+	color: #d60000;
+}
+
+.btn-red-menu {
+	position: fixed;
+	z-index: 5;
+	background-color: #d60000;
+	border: none!important;
+	box-shadow: none!important;
+}
+
+.btn-red-menu:focus {
+	background-color: #d60000;
+	border: none!important;
+	box-shadow: none!important;
+}
+
+.btn-red-menu:hover {
+	background-color: #ca1616;
+	border: none!important;
+	box-shadow: none!important;
+}
+
+.red-border {
+	border-top: 35px solid #d60000;
+	padding-top: 0.35em;
+}
+
+.roses {
+	display: block;
+	margin: 2.25em auto;
+}
+
+.center {
+	display: block;
+	text-align: center;
+}
+
+.barbara {
+	font-family: "Meddon", cursive;
+	font-size: 0.75em;
+  font-weight: 400;
+  font-style: normal;
+}
+
+nav#sidenav-1 {
+  background-color: #f5f2e8;
+}
+
+span.date {
+	color: #786363;
+}
+
+section.biography {
+	background-color: #f5f2e8;
+	padding: 1.15em 0 0 0;
+	margin: 1.75em 0;
+}
+
+section.biography h2 {
+	font-size: 2.5em;
+}
+
+footer {
+	color: #fff;
+	background-color: #d60000;
+}
+
+section.footer {
+	padding: 2.25em 0 1.5em 0;
+	border-bottom: 1px solid #fff;
+}
+
+footer ul li {
+	list-style-type: none;
+	padding: 3px 0;
+}
+
+footer ul li a {
+	font-family: "Oxygen", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #fff;
+}
+
+footer ul li a:hover {
+	text-decoration: underline;
+}
+
+footer p {
+	margin: 0;
+	padding: 0.5em 0 0.75em;
+}
