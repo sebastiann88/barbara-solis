@@ -3,7 +3,7 @@ main {
 	position: relative;
 	flex-direction: column;
 	min-height: 100vh;
-	background-color: rgba(240, 234, 214, 0.5);
+	background-color: rgba(240, 234, 214, 0.95);
 	font-family: "Oxygen", sans-serif;
 	color: #523c3c;
 }
@@ -45,14 +45,14 @@ h1 {
 }
 
 h2 {
-	font-family: "Style Script", cursive;
+	font-family: "Niconne", "Style Script", cursive;
 	font-size: 2.75em;
   font-weight: 400;
   font-style: normal;
 }
 
 h3, h4, h5, h6 {
-	font-family: "Style Script", cursive;
+	font-family: "Niconne", "Style Script", cursive;
   font-weight: 400;
   font-style: normal;
 }
@@ -94,6 +94,7 @@ strong, em, .red {
 	z-index: 5;
 	background-color: #d60000;
 	border: none!important;
+	border-radius: 0 0 0.25rem 0;
 	box-shadow: none!important;
 }
 
@@ -125,8 +126,7 @@ strong, em, .red {
 }
 
 .barbara {
-	font-family: "Meddon", cursive;
-	font-size: 0.75em;
+	font-family: "Niconne", "Meddon", cursive;
   font-weight: 400;
   font-style: normal;
 }
@@ -136,18 +136,18 @@ nav#sidenav-1 {
 }
 
 span.date {
-	color: #786363;
+	color: #685b5b;
 }
 
 section.biography {
-	background-color: #f5f2e8;
+	background-color: #f0eee5;
 	padding: 1.15em 0 0 0;
 	margin: 1.75em 0;
-	box-shadow: #eae8e3 3px 2px 15px 5px;
+	box-shadow: #e7e2d7 4px 4px 24px 2px;
 }
 
 section.biography h2 {
-	font-size: 2.5em;
+	font-size: 2.75em;
 }
 
 footer {
