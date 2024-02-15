@@ -90,6 +90,10 @@ a {
 	color: #d60000;
 }
 
+a:hover {
+	text-decoration: underline;
+}
+
 figcaption {
 	margin-top: 0.5em;
 }
@@ -244,6 +248,11 @@ div.media-container, .card {
 
 div.media-container {
 	margin: 0 1.125em;
+}
+
+div.media-container div.bg-image {
+		height: auto;
+    max-height: 15em;
 }
 
 div.media-player:before {
