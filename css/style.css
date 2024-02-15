@@ -66,7 +66,6 @@ h3, h4, h5, h6 {
 }
 
 h3 {
-	font-size: 2.125em;
 	color: #d60000;
 }
 
@@ -182,6 +181,12 @@ nav.navigation-menu {
 	display: flex;
 }
 
+.flex-top {
+	display: flex;
+  flex-direction: column;
+  align-content: start;
+}
+
 .flex-center {
 	display: flex;
   flex-direction: column;
@@ -209,7 +214,7 @@ nav.navigation-menu {
 }
 
 .barbara-intro {
-	padding: 0 3em;
+	padding: 0 1.5rem;
 }
 
 span.date {
