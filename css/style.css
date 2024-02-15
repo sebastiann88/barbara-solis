@@ -326,6 +326,10 @@ div.btn-group .btn-outline-secondary.active {
 	height: auto;
 }
 
+.card-body {
+	padding: 1.5rem 0;
+}
+
 /* Carousel Item */
 
 .carousel-item {
