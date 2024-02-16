@@ -40,7 +40,7 @@ $(document).ready(function() {
 
     innerWidth = window.innerWidth;
 
-    if (window.innerWidth < 1860) {
+    if (window.innerWidth < 768) {
       sidenavInstance.changeMode('over');
       sidenavInstance.hide();
     } else {
