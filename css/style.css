@@ -220,6 +220,10 @@ nav.navigation-menu {
 	padding: 0 1.5rem;
 }
 
+.inner-padding {
+	padding: 0 1.75em;
+}
+
 span.date {
 	color: #685b5b;
 }
