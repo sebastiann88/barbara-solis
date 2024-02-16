@@ -212,6 +212,10 @@ nav.navigation-menu {
 	text-align: left;
 }
 
+.underline {
+	text-decoration: underline;
+}
+
 .barbara-intro {
 	padding: 0 1.5rem;
 }
@@ -224,13 +228,13 @@ span.date {
 
 section.biography {
 	background-color: #f0eee5;
-	padding: 1.15em 0 0 0;
+	padding: 1.15em 0 0;
 	margin: 1.75em 0 2.25em;
 	box-shadow: #e7e2d7 4px 4px 24px 2px;
 }
 
 section.biography > div {
-	padding: 0 0 0.85em;
+	padding: 0 0.825em 0.85em;
 }
 
 /* Audio & Media */
