@@ -1,13 +1,17 @@
 /* Main */
 
-main {
+body {
 	display: flex;
-	position: relative;
 	flex-direction: column;
-	min-height: 76.348vh;
+	min-height: 100vh;
+}
+
+main {
+	position: relative;
 	background-color: rgba(240, 234, 214, 0.95);
 	font-family: "Oxygen", sans-serif;
 	color: #523c3c;
+	flex: 1;
 }
 
 main:before {
@@ -28,7 +32,6 @@ main:before {
 
 main > div.main {
 	position: relative;
-  flex: 1;
   margin-top: 3em;
 }
 
