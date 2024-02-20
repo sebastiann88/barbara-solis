@@ -115,7 +115,7 @@ strong, em, .red {
 }
 
 section.main-header {
-	margin: 1.125em auto 3.25em auto;
+	margin: 1.125em auto 0.25em;
 }
 
 /* Navigation */
@@ -131,6 +131,7 @@ section.main-header {
 .sidenav {
 	z-index: 1035;
 	padding-top: 3em;
+	width: 16.15em;
 }
 
 .sidenav-item a {
@@ -226,6 +227,10 @@ nav.navigation-menu {
 
 span.date {
 	color: #685b5b;
+}
+
+.margin-top {
+	margin-top: 1.25em;
 }
 
 /* Biography */
@@ -448,11 +453,11 @@ footer p {
 
 	div.main > section,
 	footer {
-		padding-left: 240px;
+		padding-left: 16.15em;
 	}
 
 	.sidenav {
-		padding-top: 9px;
+		padding-top: 4.125em;
 	}
 
 }
