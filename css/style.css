@@ -4,7 +4,7 @@ main {
 	display: flex;
 	position: relative;
 	flex-direction: column;
-	min-height: 100vh;
+	min-height: 76.348vh;
 	background-color: rgba(240, 234, 214, 0.95);
 	font-family: "Oxygen", sans-serif;
 	color: #523c3c;
