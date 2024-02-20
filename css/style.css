@@ -128,6 +128,14 @@ strong, em, .red {
 	margin-right: 1.25em;
 }
 
+.margin-sketch-right {
+	margin-right: 1.85em;
+}
+
+.margin-portrait-right {
+	margin-right: 1.25em;
+}
+
 /* Header */
 
 .jumbotron {
@@ -202,11 +210,6 @@ nav.navigation-menu .sidenav-collapse .sidenav-link {
 	padding-left: 2.75em;
 }
 
-.red-border {
-	border-top: 35px solid #d60000;
-	padding-top: 0.35em;
-}
-
 nav.navigation-menu {
 	/*  background-color: #f8f6ef;*/
 	background-color: rgba(248, 246, 239, 0.97);
@@ -229,6 +232,14 @@ nav.navigation-menu {
 	display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.red-border {
+	padding-top: 1.125em;
+}
+
+.bottom-red-border {
+	border-bottom: 35px solid #d60000;
 }
 
 .roses {
@@ -255,6 +266,10 @@ nav.navigation-menu {
 
 .inner-padding {
 	padding: 0 1.75em;
+}
+
+.inline-block {
+	display: inline-block;
 }
 
 span.date {
@@ -491,6 +506,17 @@ footer p {
 }
 
 @media (min-width: 992px) {
+	.red-border {
+		border-top: 35px solid #d60000;
+	}
+
+	.bottom-red-border {
+		border-bottom: none;
+	}
+
+	.margin-sketch-right {
+		margin-right: 1.125em;
+	}
 
 }
 
@@ -498,6 +524,8 @@ footer p {
 
 }
 
-@media (min-width: 1400px) {
-
+@media (min-width: 1550px) {
+		.margin-portrait-right {
+		margin-right: 0;
+	}
 }
