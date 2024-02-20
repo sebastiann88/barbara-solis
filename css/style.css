@@ -130,7 +130,7 @@ section.main-header {
 
 .sidenav {
 	z-index: 1035;
-	padding-top: 3em;
+	padding-top: 4.125em;
 	width: 16.15em;
 }
 
@@ -149,6 +149,8 @@ nav.navigation-menu .sidenav-collapse .sidenav-link {
 
 .btn-red-menu {
 	position: fixed;
+	top: 0;
+	left: 0;
 	z-index: 1045;
 	color: #fff;
 	padding: 0.45em 0.95em;
