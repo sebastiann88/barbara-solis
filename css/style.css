@@ -119,6 +119,11 @@ section.main-header {
 	padding: 0 0 1.25em;
 }
 
+section.home-main-header {
+	margin: 1.125em auto 0;
+	padding: 0;
+}
+
 /* Navigation */
 
 .sidenav-collapse .sidenav-link {
