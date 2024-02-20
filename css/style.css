@@ -181,6 +181,7 @@ nav.navigation-menu .sidenav-collapse .sidenav-link {
 nav.navigation-menu {
 	/*  background-color: #f8f6ef;*/
 	background-color: rgba(248, 246, 239, 0.97);
+	overflow: hidden;
 }
 
 /* Genereal */
