@@ -108,12 +108,13 @@ strong, em, .red {
 	font-style: inherit;
 }
 
-.first-letter:first-letter {
+/*.first-letter:first-letter {
     text-transform: uppercase;
     initial-letter: 2;
+    -webkit-initial-letter: 2;
     padding: 0 5px;
     color: #d60000;
-}
+}*/
 
 .margin-top {
 	margin-top: 1.25em;
@@ -121,6 +122,10 @@ strong, em, .red {
 
 .margin-bottom {
 	margin-bottom: 1.25em;
+}
+
+.margin-right {
+	margin-right: 1.25em;
 }
 
 /* Header */
