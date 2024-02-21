@@ -4,23 +4,24 @@ import { defineConfig } from "tinacms";
 const branch =
   process.env.GITHUB_BRANCH ||
   process.env.VERCEL_GIT_COMMIT_REF ||
-  process.env.HEAD
+  process.env.HEAD ||
+  "main";
 
 export default defineConfig({
-  
   branch,
+
   // Get this from tina.io
   clientId: process.env.TINA_CLIENT_ID || "",
   // Get this from tina.io
   token: process.env.TINA_TOKEN || "",
 
   build: {
-    outputFolder: "public",
+    outputFolder: "admin",
     publicFolder: "static",
   },
   media: {
     tina: {
-      mediaRoot: "assets",
+      mediaRoot: "",
       publicFolder: "static",
     },
   },
@@ -47,35 +48,6 @@ export default defineConfig({
           },
         ],
       },
-      {
-        name: "page",
-        label: "Page",
-        path: "content/pages",
-        format: "md",
-        fields: [
-          {
-            type: "string",
-            name: "title",
-            label: "title",
-            isTitle: true,
-            required: true,
-          },
-          {
-            type: "rich-text",
-            name: "body",
-            label: "Body",
-            isBody: true,
-          },
-        ],
-      },
     ],
-  },
-  search: {
-    tina: {
-      indexerToken: process.env.TINA_SEARCH || "",
-      stopwordLanguages: ['eng'],
-    },
-    indexBatchSize: 100,
-    maxSearchIndexFieldLength: 100,
   },
 });

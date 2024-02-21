@@ -1,25 +1,248 @@
 {{ define "main" }}
 
-<main>
-  <div class="main">
-    <section class="main-header">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <a class="col-sm-12 col-lg-4 float-start margin-sketch-right margin-bottom bottom-red-border" data-mdb-ripple-init data-mdb-ripple-color="light">
-              <img class="img-fluid" src="/img/barbara-solis.jpg">
-            </a>
-            <div class="red-border-biography">
-              <h1>The Music and Research Archives of<br><em>Barbara Solís</em> <span class="date">(1931-2010)</span></h1>
-              {{ .Content }}
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+<!-- ==============================
+/////// Begin body content ///////
+=============================== -->
+<div id="body-content">
 
-    {{- partial "intro/intro.html" . -}}
-  </div>
-</main>
+
+  <!-- ================================
+  /////// Begin content section ///////
+  ================================= -->
+  <section id="content-section" class="page">
+
+    <div class="container max-width-1300">
+      <div class="row">
+        <div class="col-md-12">
+
+          <!-- Begin content wrap -->
+          <div class="content-wrap">
+            
+            <!-- Begin blog list
+            ===================== -->
+            <div class="blog-list">
+              <div class="row">
+
+                <!-- Left column -->
+                <div class="col-md-8">
+
+                  <!-- Begin blog single post 
+                  ============================= -->
+                  <div class="blog-single-post">
+
+                    <!-- <h1 class="blog-single-post-title">The Truth About Photography</h1> -->
+
+                    <!-- Begin blog single attributes -->
+                    <div class="blog-single-attributes margin-bottom-40">
+                      <div class="row">
+                        <div class="col-sm-8">
+
+                          <!-- Begin blog single meta -->
+                          <div class="blog-single-meta-wrap">
+
+                            <h1>{{ .Title }}</h1>
+
+                            <!-- Blog single author avatar -->
+                            <img class="author-avatar pull-left bg-image" src="/assets/img/blog/small/avatar/avatar-1.jpg">
+
+                            <div class="blog-single-meta">
+                              <h4 class="article-author">Author: Jeff B</h4>
+                              <div class="article-time-cat">
+                                <span class="article-time">{{ dateFormat "Monday, Jan 2, 2006" .Date }}</span>
+                                {{ if .Params.categories }}
+                                  - in
+                                  {{ range .Params.categories }}
+                                  <a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}" class="article-category">{{ . }}</a>
+                                  {{ end }}
+                                {{ end }}
+                              </div>
+                            </div>
+                          </div>
+                          <!-- End blog single meta -->
+
+                        </div> <!-- /.col -->
+
+                        <div class="col-sm-4">
+
+                          <!-- Begin blog single links -->
+                          <ul class="blog-single-links list-unstyled list-inline">
+
+                            <!-- Begin album share -->
+                            <li>
+                              <a href="#0" class="al-at-link album-share" title="Share this album" data-toggle="modal" data-target="#modal-34536634">
+                                <span class="al-at-icon"><i class="fas fa-share-alt"></i></span>
+                                <span class="al-at-text">Share</span>
+                              </a>
+
+                              <!-- Begin album share modal -->
+                              <div id="modal-34536634" class="modal fade" tabindex="-1" role="dialog">
+                                <div class="modal-dialog modal-center">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                      <h4 class="modal-title">Share to:</h4>
+                                    </div>
+                                    <div class="modal-body text-center">
+                                      <!-- Begin modal share -->
+                                      <div class="modal-share">
+                                        <ul>
+                                          <li><a href="#0" class="btn btn-social-min btn-facebook btn-rounded-full"><i class="fab fa-facebook-f"></i></a></li>
+                                          <li><a href="#0" class="btn btn-social-min btn-twitter btn-rounded-full"><i class="fab fa-twitter"></i></a></li>
+                                          <li><a href="#0" class="btn btn-social-min btn-google btn-rounded-full"><i class="fab fa-google-plus-g"></i></a></li>
+                                          <li><a href="#0" class="btn btn-social-min btn-pinterest btn-rounded-full"><i class="fab fa-pinterest-p"></i></a></li>
+                                          <li><a href="#0" class="btn btn-social-min btn-instagram btn-rounded-full"><i class="fab fa-instagram"></i></a></li>
+                                        </ul>
+                                        <input class="grab-link" type="text" readonly="" value="https://your-site.com/blog-post-link" onclick="this.select()">
+                                      </div>
+                                      <!-- End modal share -->
+                                    </div>
+                                  </div><!-- /.modal-content -->
+                                </div><!-- /.modal-dialog -->
+                              </div>
+                              <!-- End album share modal -->
+
+                            </li>
+                            <!-- End album share -->
+
+                          </ul>
+                          <!-- End blog single links -->
+
+                        </div> <!-- /.col -->
+                      </div> <!-- /.row -->
+                    </div>
+                    <!-- End blog single attributes -->
+
+                    <!-- begin post content -->
+                    <div class="post-content lightgallery">
+                      {{ .Content }}
+                    </div>
+                    <!-- End post content -->
+
+                    <!-- Begin blog single attributes -->
+                    <div class="blog-single-attributes margin-top-60">
+                      <div class="row">
+                        <div class="col-sm-8">
+                          <!-- Begin blog single tags -->
+                          {{ if .Params.tags }}
+                          <div class="blog-single-tags">
+                            <ul class="list-unstyled list-inline">
+                              {{ range .Params.tags }}
+                              <li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></li>
+                              {{ end }}
+                            </ul>
+                          </div>
+                          {{ end }}
+                          <!-- End blog single tags -->
+                        </div> <!-- /.col -->
+
+                        <div class="col-sm-4 text-right">
+                          
+                          <!-- Begin blog single links -->
+                          <ul class="blog-single-links list-unstyled list-inline">
+
+                            <!-- Begin album share -->
+                            <li>
+                              <a href="#0" class="al-at-link album-share" title="Share this album" data-toggle="modal" data-target="#modal-46745655">
+                                <span class="al-at-icon"><i class="fas fa-share-alt"></i></span>
+                                <span class="al-at-text">Share</span>
+                              </a>
+
+                              <!-- Begin album share modal -->
+                              <div id="modal-46745655" class="modal fade" tabindex="-1" role="dialog">
+                                <div class="modal-dialog modal-center">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                      <h4 class="modal-title">Share to:</h4>
+                                    </div>
+                                    <div class="modal-body text-center">
+                                      <!-- Begin modal share -->
+                                      <div class="modal-share">
+                                        <ul>
+                                          <li><a href="#0" class="btn btn-social-min btn-facebook btn-rounded-full"><i class="fab fa-facebook-f"></i></a></li>
+                                          <li><a href="#0" class="btn btn-social-min btn-twitter btn-rounded-full"><i class="fab fa-twitter"></i></a></li>
+                                          <li><a href="#0" class="btn btn-social-min btn-google btn-rounded-full"><i class="fab fa-google-plus-g"></i></a></li>
+                                          <li><a href="#0" class="btn btn-social-min btn-pinterest btn-rounded-full"><i class="fab fa-pinterest-p"></i></a></li>
+                                          <li><a href="#0" class="btn btn-social-min btn-instagram btn-rounded-full"><i class="fab fa-instagram"></i></a></li>
+                                        </ul>
+                                        <input class="grab-link" type="text" readonly="" value="https://your-site.com/blog-post-link" onclick="this.select()">
+                                      </div>
+                                      <!-- End modal share -->
+                                    </div>
+                                  </div><!-- /.modal-content -->
+                                </div><!-- /.modal-dialog -->
+                              </div>
+                              <!-- End album share modal -->
+
+                            </li>
+                            <!-- End album share -->
+
+                          </ul>
+                          <!-- End blog single links -->
+
+                        </div> <!-- /.col -->
+                      </div> <!-- /.col -->
+                    </div>
+                    <!-- End blog single attributes -->
+
+                  </div> 
+                  <!-- End blog single post -->
+
+                  <!-- Begin blog single nav -->
+                  <div class="blog-single-nav">
+                    <div class="row">
+                      {{ with .PrevInSection }}
+                      <!-- Left column -->
+                      <div class="col-sm-6">
+                        <div class="prev-post">
+                            <!-- <a href="#" class="prev-post-image pull-left bg-image" style="background-image: url(/assets/img/blog/grid/img-1.jpg);"></a> -->
+                            <div class="prev-post-info">
+                              <a href="{{ .Permalink }}"><i class="fas fa-chevron-left"></i> Prev<span class="hide-from-xs">ious</span> Post</a>
+                              <h4 class="prev-post-title">{{ .Title }}</h4>
+                            </div>
+                        </div>
+                      </div> <!-- /.col -->
+                      {{ end }}
+
+                      <!-- Right column -->
+                      {{ with .NextInSection }}
+                      <div class="col-sm-6 text-right">
+                        <div class="next-post">
+                          <!-- <a href="#" class="next-post-image pull-right bg-image" style="background-image: url(/assets/img/blog/grid/img-3.jpg);"></a> -->
+
+                          <div class="prev-post-info">
+                            <a href="{{ .Permalink }}">Next<span class="hidden-md"> Post</span> <i class="fas fa-chevron-right"></i></a>
+                            <h4 class="next-post-title">{{ .Title }}</h4>
+                          </div>
+                        </div>
+                      </div> <!-- /.col -->
+                      {{ end }}
+                    </div> <!-- /.row -->
+                  </div>
+                  <!-- End blog single nav -->
+
+
+                  <!-- Begin post comments 
+                  ========================= -->
+
+                  <!-- End post comments -->
+
+                </div> <!-- /.col (Left column) -->
+
+                {{- partial "sidebar/sidebar.html" . -}}
+
+              </div> <!-- /.row -->
+            </div>
+            <!-- End blog-list -->
+
+          </div>
+          <!-- End content wrap -->
+
+        </div> <!-- /.col -->
+      </div> <!-- /.row -->
+    </div> <!-- /.container -->
+
+  </section>
+  <!-- End content section -->
 
 {{ end }}

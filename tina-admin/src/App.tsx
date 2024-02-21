@@ -5,7 +5,7 @@ function App() {
   setEditing(true);
 
   const branch = "main";
-  const clientId = "";
+  const clientId = process.env.TINA_CLIENT_ID || "";
   const apiURL =
     process.env.NODE_ENV == "development"
       ? "http://localhost:4001/graphql"
