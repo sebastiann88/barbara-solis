@@ -2,24 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://barbara-solis.netlify.app/</loc>
+    <loc>https://barbara-solis.vercel.app/</loc>
     <lastmod>2024-02-21T00:21:04-05:00</lastmod>
   </url><url>
-    <loc>https://barbara-solis.netlify.app/pages/</loc>
+    <loc>https://barbara-solis.vercel.app/pages/</loc>
     <lastmod>2024-02-21T00:21:04-05:00</lastmod>
   </url><url>
-    <loc>https://barbara-solis.netlify.app/dummy-posts/</loc>
+    <loc>https://barbara-solis.vercel.app/dummy-posts/</loc>
     <lastmod>2022-01-11T14:28:45+00:00</lastmod>
   </url><url>
-    <loc>https://barbara-solis.netlify.app/dummy-posts/my-dummy-post/</loc>
+    <loc>https://barbara-solis.vercel.app/dummy-posts/my-dummy-post/</loc>
     <lastmod>2022-01-11T14:28:45+00:00</lastmod>
   </url><url>
-    <loc>https://barbara-solis.netlify.app/categories/</loc>
+    <loc>https://barbara-solis.vercel.app/categories/</loc>
   </url><url>
-    <loc>https://barbara-solis.netlify.app/posts/hello-world/</loc>
+    <loc>https://barbara-solis.vercel.app/posts/hello-world/</loc>
   </url><url>
-    <loc>https://barbara-solis.netlify.app/posts/</loc>
+    <loc>https://barbara-solis.vercel.app/posts/</loc>
   </url><url>
-    <loc>https://barbara-solis.netlify.app/tags/</loc>
+    <loc>https://barbara-solis.vercel.app/tags/</loc>
   </url>
 </urlset>
