@@ -1,11 +1,117 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>Barbara Solis</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content on Barbara Solis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Wed, 21 Feb 2024 00:21:04 -0500</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Wed, 21 Feb 2024 00:21:04 -0500</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>Hello World Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</description>
+    </item>
+    <item>
+      <title>Eulogy</title>
+      <link>http://localhost:1313/eulogy/</link>
+      <pubDate>Wed, 21 Feb 2024 00:20:52 -0500</pubDate>
+      <guid>http://localhost:1313/eulogy/</guid>
+      <description>Hello World Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</description>
+    </item>
+    <item>
+      <title>Photos</title>
+      <link>http://localhost:1313/photos/</link>
+      <pubDate>Wed, 21 Feb 2024 00:20:38 -0500</pubDate>
+      <guid>http://localhost:1313/photos/</guid>
+      <description>Hello World Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</description>
+    </item>
+    <item>
+      <title>Artwork</title>
+      <link>http://localhost:1313/artwork/</link>
+      <pubDate>Wed, 21 Feb 2024 00:20:18 -0500</pubDate>
+      <guid>http://localhost:1313/artwork/</guid>
+      <description>Hello World Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</description>
+    </item>
+    <item>
+      <title>Portrait</title>
+      <link>http://localhost:1313/portrait/</link>
+      <pubDate>Wed, 21 Feb 2024 00:20:06 -0500</pubDate>
+      <guid>http://localhost:1313/portrait/</guid>
+      <description>Hello World Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</description>
+    </item>
+    <item>
+      <title>Method of Teaching</title>
+      <link>http://localhost:1313/method-of-teaching/</link>
+      <pubDate>Wed, 21 Feb 2024 00:19:53 -0500</pubDate>
+      <guid>http://localhost:1313/method-of-teaching/</guid>
+      <description>Hello World Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</description>
+    </item>
+    <item>
+      <title>Culture of Death</title>
+      <link>http://localhost:1313/culture-of-death/</link>
+      <pubDate>Wed, 21 Feb 2024 00:19:40 -0500</pubDate>
+      <guid>http://localhost:1313/culture-of-death/</guid>
+      <description>Hello World Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</description>
+    </item>
+    <item>
+      <title>Research Papers</title>
+      <link>http://localhost:1313/research-papers/</link>
+      <pubDate>Wed, 21 Feb 2024 00:19:27 -0500</pubDate>
+      <guid>http://localhost:1313/research-papers/</guid>
+      <description>Hello World Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</description>
+    </item>
+    <item>
+      <title>Research Notes</title>
+      <link>http://localhost:1313/research-notes/</link>
+      <pubDate>Wed, 21 Feb 2024 00:19:14 -0500</pubDate>
+      <guid>http://localhost:1313/research-notes/</guid>
+      <description>Hello World Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</description>
+    </item>
+    <item>
+      <title>Notes Lecture Recitals</title>
+      <link>http://localhost:1313/notes-lecture-recitals/</link>
+      <pubDate>Wed, 21 Feb 2024 00:18:59 -0500</pubDate>
+      <guid>http://localhost:1313/notes-lecture-recitals/</guid>
+      <description>Hello World Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</description>
+    </item>
+    <item>
+      <title>Concert Programmes</title>
+      <link>http://localhost:1313/concert-programmes/</link>
+      <pubDate>Wed, 21 Feb 2024 00:18:40 -0500</pubDate>
+      <guid>http://localhost:1313/concert-programmes/</guid>
+      <description>Hello World Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</description>
+    </item>
+    <item>
+      <title>Musical Arrangements</title>
+      <link>http://localhost:1313/musical-arrangements/</link>
+      <pubDate>Wed, 21 Feb 2024 00:18:25 -0500</pubDate>
+      <guid>http://localhost:1313/musical-arrangements/</guid>
+      <description>Hello World Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</description>
+    </item>
+    <item>
+      <title>Andalucia</title>
+      <link>http://localhost:1313/andalucia/</link>
+      <pubDate>Wed, 21 Feb 2024 00:18:10 -0500</pubDate>
+      <guid>http://localhost:1313/andalucia/</guid>
+      <description>The Mystical Music of Andalucia, recorded in 2002 and published in 2004, features four solo works for piano and seven of Barbara Solís’s arrangements for viola and piano.&#xA;Copies of the manuscript scores of Ms. Solís’s arrangements heard on this recording are available on this website (see Musical arrangements by Barbara Solís).</description>
+    </item>
+    <item>
+      <title>Biography</title>
+      <link>http://localhost:1313/biography/</link>
+      <pubDate>Wed, 21 Feb 2024 00:17:42 -0500</pubDate>
+      <guid>http://localhost:1313/biography/</guid>
+      <description>Hello World Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</description>
+    </item>
+    <item>
+      <title>Hello, World!</title>
+      <link>http://localhost:1313/posts/hello-world/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/hello-world/</guid>
+      <description>Hello World! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non lorem diam. Quisque vulputate nibh sodales eros pretium tincidunt. Aenean porttitor efficitur convallis. Nulla sagittis finibus convallis. Phasellus in fermentum quam, eu egestas tortor. Maecenas ac mollis leo. Integer maximus eu nisl vel sagittis.&#xA;Suspendisse facilisis, mi ac scelerisque interdum, ligula ex imperdiet felis, a posuere eros justo nec sem. Nullam laoreet accumsan metus, sit amet tincidunt orci egestas nec.</description>
+    </item>
   </channel>
 </rss>
