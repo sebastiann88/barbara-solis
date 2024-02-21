@@ -2,60 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://barbara-solis.netlify.app/</loc>
     <lastmod>2024-02-21T00:21:04-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/pages/contact/</loc>
+    <loc>https://barbara-solis.netlify.app/pages/</loc>
     <lastmod>2024-02-21T00:21:04-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/pages/</loc>
-    <lastmod>2024-02-21T00:21:04-05:00</lastmod>
+    <loc>https://barbara-solis.netlify.app/dummy-posts/</loc>
+    <lastmod>2022-01-11T14:28:45+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/pages/eulogy/</loc>
-    <lastmod>2024-02-21T00:20:52-05:00</lastmod>
+    <loc>https://barbara-solis.netlify.app/dummy-posts/my-dummy-post/</loc>
+    <lastmod>2022-01-11T14:28:45+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/pages/photos/</loc>
-    <lastmod>2024-02-21T00:20:38-05:00</lastmod>
+    <loc>https://barbara-solis.netlify.app/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/pages/artwork/</loc>
-    <lastmod>2024-02-21T00:20:18-05:00</lastmod>
+    <loc>https://barbara-solis.netlify.app/posts/hello-world/</loc>
   </url><url>
-    <loc>http://localhost:1313/pages/portrait/</loc>
-    <lastmod>2024-02-21T00:20:06-05:00</lastmod>
+    <loc>https://barbara-solis.netlify.app/posts/</loc>
   </url><url>
-    <loc>http://localhost:1313/pages/method-of-teaching/</loc>
-    <lastmod>2024-02-21T00:19:53-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/pages/culture-of-death/</loc>
-    <lastmod>2024-02-21T00:19:40-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/pages/research-papers/</loc>
-    <lastmod>2024-02-21T00:19:27-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/pages/research-notes/</loc>
-    <lastmod>2024-02-21T00:19:14-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/pages/notes-lecture-recitals/</loc>
-    <lastmod>2024-02-21T00:18:59-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/pages/concert-programmes/</loc>
-    <lastmod>2024-02-21T00:18:40-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/pages/musical-arrangements/</loc>
-    <lastmod>2024-02-21T00:18:25-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/pages/andalucia/</loc>
-    <lastmod>2024-02-21T00:18:10-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/pages/biography/</loc>
-    <lastmod>2024-02-21T00:17:42-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-  </url><url>
-    <loc>http://localhost:1313/posts/hello-world/</loc>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://barbara-solis.netlify.app/tags/</loc>
   </url>
 </urlset>

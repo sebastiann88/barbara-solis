@@ -4,19 +4,18 @@ import { defineConfig } from "tinacms";
 const branch =
   process.env.GITHUB_BRANCH ||
   process.env.VERCEL_GIT_COMMIT_REF ||
-  process.env.HEAD ||
-  "main";
+  process.env.HEAD
 
 export default defineConfig({
+  
   branch,
-
   // Get this from tina.io
   clientId: process.env.TINA_CLIENT_ID || "",
   // Get this from tina.io
   token: process.env.TINA_TOKEN || "",
 
   build: {
-    outputFolder: "admin",
+    outputFolder: "public",
     publicFolder: "static",
   },
   media: {
@@ -32,7 +31,6 @@ export default defineConfig({
         name: "post",
         label: "Posts",
         path: "content/posts",
-        format: "md",
         fields: [
           {
             type: "string",
@@ -51,7 +49,7 @@ export default defineConfig({
       },
       {
         name: "page",
-        label: "Pages",
+        label: "Page",
         path: "content/pages",
         format: "md",
         fields: [

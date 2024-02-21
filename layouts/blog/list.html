@@ -1,124 +1,25 @@
 {{ define "main" }}
 
-<!-- ==============================
-/////// Begin body content ///////
-=============================== -->
-<div id="body-content">
-
-
-  <!-- ================================
-  /////// Begin content section ///////
-  ================================= -->
-  <section id="content-section" class="page">
-
-    <div class="container max-width-1300">
-      <div class="row">
-        <div class="col-md-12">
-
-          <!-- Begin content wrap -->
-          <div class="content-wrap">
-            
-            <!-- Begin blog list
-            ===================== -->
-            <div class="blog-list">
-              <div class="row">
-
-                <!-- Left column -->
-                <div class="col-md-8">
-
-                  <!-- Begin blog list items wrap 
-                  ================================= -->
-                  <div class="blog-list-items-wrap">
-
-                    <h1>{{ .Title }}</h1>
-
-                    <!-- Begin blog list item -->
-                    {{ range .Paginator.Pages }}
-                    <article class="blog-list-item">
-                      {{ with .Params.featured_image }}
-                      <a href="{{ .RelPermalink }}" class="bli-image bg-image">
-                        <img src="{{ . }}" alt="{{ with $.Page.Params.title }}{{ . }}{{ end }}">
-                      </a>
-                      {{ end }}
-                      <div class="bli-info">
-                        <h2 class="bli-title"><a href="{{ .RelPermalink }}" title="Paris Fashion Week">{{ .Title }}</a></h2>
-                        <div class="bli-meta">
-                          <a href="" class="article-time">{{ dateFormat "Monday, Jan 2, 2006" .Date }}</a>
-                          {{ if .Params.categories }}
-                          {{ range .Params.categories }}
-                          <a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}" class="article-category">{{ . }}</a>
-                          {{ end }}
-                          {{ end }}
-                        </div>
-                        <p class="bli-desc">
-                          {{ .Summary }}
-                        </p>
-                        <div class="bli-button">
-                          <a href="{{ .RelPermalink }}" class="btn btn-dark btn-rounded-5x btn-sm">Read More</a>
-                        </div>
-                      </div>
-                    </article>
-                    {{ end }}
-                    <!-- End blog list item -->
-
-                  </div> 
-                  <!-- End blog list items wrap -->
-
-                </div> <!-- /.col (Left column) -->
-
-                {{- partial "sidebar/sidebar.html" . -}}
-
-              </div> <!-- /.row -->
+<main>
+  <div class="main">
+    <section class="main-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <a class="col-sm-12 col-lg-4 float-start margin-sketch-right margin-bottom bottom-red-border" data-mdb-ripple-init data-mdb-ripple-color="light">
+              <img class="img-fluid" src="/img/barbara-solis.jpg">
+            </a>
+            <div class="red-border-biography">
+              <h1>The Music and Research Archives of<br><em>Barbara Solís</em> <span class="date">(1931-2010)</span></h1>
+              {{ .Content }}
             </div>
-            <!-- End blog-list -->
-
           </div>
-          <!-- End content wrap -->
+        </div>
+      </div>
+    </section>
 
-        </div> <!-- /.col -->
-      </div> <!-- /.row -->
+    {{- partial "intro/intro.html" . -}}
+  </div>
+</main>
 
-      <div class="row">
-        <div class="col-md-8">
-
-          <!-- Begin pagination -->
-          <nav class="pagination-wrap">
-            {{ $pag := $.Paginator }}
-            {{ if gt $pag.TotalPages 1 }}
-            <ul class="pagination">
-              {{ $pag := $.Paginator }}
-              {{ if gt $pag.TotalPages 1 }}
-              {{ $.Scratch.Set "dot_rendered" false }}
-                {{ if $pag.HasPrev  }}
-                <li><a href="{{ $pag.Prev.URL }}">Prev</a></li>
-                {{ end }}
-
-                {{ range $pag.Pagers }}
-                  {{ if eq . $pag }} <!-- Current Page -->
-                  <li class="active">{{ .PageNumber }}</li>
-                  {{ else if and (ge .PageNumber (sub $pag.PageNumber 2)) (le .PageNumber (add $pag.PageNumber 2)) }}
-                  {{ $.Scratch.Set "dot_rendered" false }} <!-- Render prev 2 page and next 2 pages -->
-                  <li><a href="{{ .URL }}">{{ .PageNumber }}</a></li>
-                  {{ else if eq ($.Scratch.Get "dot_rendered") false }} <!-- render skip pages -->
-                  {{ $.Scratch.Set "dot_rendered" true }}
-                  <li class="disabled"><a>...</a></li>
-                  {{ end }}
-                {{ end }}
-
-                {{ if $pag.HasNext }}
-                <li><a href="{{ $pag.Next.URL }}">Next</a></li>
-                {{ end }}
-              {{ end }}
-            </ul>
-            {{ end }}
-          </nav>
-          <!-- End pagination -->
-
-        </div> <!-- /.col -->
-      </div> <!-- /.row -->
-    </div> <!-- /.container -->
-
-  </section>
-  <!-- End content section -->
-
-{{ end }} 
+{{ end }}
