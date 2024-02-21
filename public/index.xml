@@ -6,8 +6,15 @@
     <description>Recent content on Barbara Solis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Jan 2022 14:28:45 +0000</lastBuildDate>
     <atom:link href="https://barbara-solis.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>https://barbara-solis.netlify.app/dummy-posts/my-dummy-post/</link>
+      <pubDate>Tue, 11 Jan 2022 14:28:45 +0000</pubDate>
+      <guid>https://barbara-solis.netlify.app/dummy-posts/my-dummy-post/</guid>
+      <description>This is an edit! This is a test!</description>
+    </item>
     <item>
       <title>Hello, World!</title>
       <link>https://barbara-solis.netlify.app/posts/hello-world/</link>
