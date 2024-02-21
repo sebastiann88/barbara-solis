@@ -48,6 +48,35 @@ export default defineConfig({
           },
         ],
       },
+      {
+        name: "page",
+        label: "Page",
+        path: "content/pages",
+        format: "md",
+        fields: [
+          {
+            type: "string",
+            name: "title",
+            label: "title",
+            isTitle: true,
+            required: true,
+          },
+          {
+            type: "rich-text",
+            name: "body",
+            label: "Body",
+            isBody: true,
+          },
+        ],
+      },
     ],
+  },
+  search: {
+    tina: {
+      indexerToken: process.env.TINA_SEARCH || "",
+      stopwordLanguages: ['eng'],
+    },
+    indexBatchSize: 100,
+    maxSearchIndexFieldLength: 100,
   },
 });

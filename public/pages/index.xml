@@ -2,11 +2,109 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on My New Hugo Site</title>
-    <link>https://example.org/pages/</link>
+    <link>http://localhost:1313/pages/</link>
     <description>Recent content in Pages on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="https://example.org/pages/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Feb 2024 00:21:04 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/pages/contact/</link>
+      <pubDate>Wed, 21 Feb 2024 00:21:04 -0500</pubDate>
+      <guid>http://localhost:1313/pages/contact/</guid>
+      <description>If you need assistance, please reach out by emailing us at james.kgg@gmail.com, or using the contact form below.</description>
+    </item>
+    <item>
+      <title>Eulogy</title>
+      <link>http://localhost:1313/pages/eulogy/</link>
+      <pubDate>Wed, 21 Feb 2024 00:20:52 -0500</pubDate>
+      <guid>http://localhost:1313/pages/eulogy/</guid>
+      <description>Good evening, all. It is a sad occasion for us to be here, of course, but I would like to thank the Solís family for having this memorial service here, and for bringing us together today to remember Barbara in all the ways that she influenced us, in some ways subtly and in other ways profoundly.&#xA;My relationship with Barbara was sometimes straightforward, and sometimes it presented complexities. But it was always enormously rewarding, and I trust that it was mutually so.</description>
+    </item>
+    <item>
+      <title>Photos</title>
+      <link>http://localhost:1313/pages/photos/</link>
+      <pubDate>Wed, 21 Feb 2024 00:20:38 -0500</pubDate>
+      <guid>http://localhost:1313/pages/photos/</guid>
+      <description>Barbara Solís was a Canadian pianist who undertook a lifelong study of Spanish classical music. She was a recitalist, music teacher, researcher, lecturer, dancer and visual artist.&#xA;This website makes available the archival material in Ms. Solís’s papers. These materials include her research into aspects of Spanish classical music and Spain’s cultural history. Her research also explores eras of the remote past.&#xA;The site comprises the following sections, with content available through the links in the menu at the left.</description>
+    </item>
+    <item>
+      <title>Artwork</title>
+      <link>http://localhost:1313/pages/artwork/</link>
+      <pubDate>Wed, 21 Feb 2024 00:20:18 -0500</pubDate>
+      <guid>http://localhost:1313/pages/artwork/</guid>
+      <description>Barbara Solís was a Canadian pianist who undertook a lifelong study of Spanish classical music. She was a recitalist, music teacher, researcher, lecturer, dancer and visual artist.&#xA;This website makes available the archival material in Ms. Solís’s papers. These materials include her research into aspects of Spanish classical music and Spain’s cultural history. Her research also explores eras of the remote past.&#xA;The site comprises the following sections, with content available through the links in the menu at the left.</description>
+    </item>
+    <item>
+      <title>Portrait</title>
+      <link>http://localhost:1313/pages/portrait/</link>
+      <pubDate>Wed, 21 Feb 2024 00:20:06 -0500</pubDate>
+      <guid>http://localhost:1313/pages/portrait/</guid>
+      <description>Professional artist Cheryl Gellman of Ottawa and her husband, composer Steven Gellman, provided tangible support to many of Ms. Solís’s concerts in Ottawa.</description>
+    </item>
+    <item>
+      <title>Method of Teaching</title>
+      <link>http://localhost:1313/pages/method-of-teaching/</link>
+      <pubDate>Wed, 21 Feb 2024 00:19:53 -0500</pubDate>
+      <guid>http://localhost:1313/pages/method-of-teaching/</guid>
+      <description>For a period, Barbara Solís lived in at least one small community in Canada’s western region, in the province of Alberta. She taught piano during these years and in her later years as well.&#xA;In her undated manuscript “The Barbara Solís Method of Teaching,” Ms. Solís aimed to provide a method of musical instruction that would provide students with a foundation they could benefit from when a music teacher was not available in a small community.</description>
+    </item>
+    <item>
+      <title>Culture of Death</title>
+      <link>http://localhost:1313/pages/culture-of-death/</link>
+      <pubDate>Wed, 21 Feb 2024 00:19:40 -0500</pubDate>
+      <guid>http://localhost:1313/pages/culture-of-death/</guid>
+      <description>Over the years, Barbara Solís distilled her research into a manuscript for a book, Andalucia: The Culture of Death.&#xA;Ms. Solís’s book manuscript available here is the most recent version held in her papers. Also provided are her related handwritten research notes.</description>
+    </item>
+    <item>
+      <title>Research Papers</title>
+      <link>http://localhost:1313/pages/research-papers/</link>
+      <pubDate>Wed, 21 Feb 2024 00:19:27 -0500</pubDate>
+      <guid>http://localhost:1313/pages/research-papers/</guid>
+      <description>Barbara Solís undertook Bachelor of Music studies at the University of Ottawa, graduating in 1996. During this time, she also studied aspects of Arabic culture.&#xA;Most of the files listed below link to Ms. Solís’s academic papers written during this period.&#xA;Some of Ms. Solís’s academic papers include her decorations in ink inspired by her time in Spain in the 1970s. In one of her papers (1990 - La Musica Espanol del Sigio XIX), she explained that her “artwork has… been extracted from the memories I hold from studying countless balconies, cathedrals and anything which pertained to 19th century Spain.</description>
+    </item>
+    <item>
+      <title>Research Notes</title>
+      <link>http://localhost:1313/pages/research-notes/</link>
+      <pubDate>Wed, 21 Feb 2024 00:19:14 -0500</pubDate>
+      <guid>http://localhost:1313/pages/research-notes/</guid>
+      <description>Barbara Solís’s papers contain folders of research notes on various historical themes. This material is broadly organized according to the topics listed below.</description>
+    </item>
+    <item>
+      <title>Notes Lecture Recitals</title>
+      <link>http://localhost:1313/pages/notes-lecture-recitals/</link>
+      <pubDate>Wed, 21 Feb 2024 00:18:59 -0500</pubDate>
+      <guid>http://localhost:1313/pages/notes-lecture-recitals/</guid>
+      <description>Barbara Solís’s papers contain folders of handwritten notes and other materials for her lecture-recitals, workshops and concert programs. This material is broadly organized according to the topics listed below.</description>
+    </item>
+    <item>
+      <title>Concert Programmes</title>
+      <link>http://localhost:1313/pages/concert-programmes/</link>
+      <pubDate>Wed, 21 Feb 2024 00:18:40 -0500</pubDate>
+      <guid>http://localhost:1313/pages/concert-programmes/</guid>
+      <description>Barbara Solís presented recitals in Spain in the 1970s, several of them for dignitaries. Her papers contain no concert programs from this period.&#xA;The concert materials listed below are almost all from programs Ms. Solís presented in Ottawa, Canada. Of particular interest in these materials are her program notes, which convey Ms. Solís’s written and spoken thoughts on the themes she presented in her concerts.&#xA;Ms. Solís always performed in Spanish dress for her recitals in Ottawa, and she encouraged her performance partners to do the same.</description>
+    </item>
+    <item>
+      <title>Musical Arrangements</title>
+      <link>http://localhost:1313/pages/musical-arrangements/</link>
+      <pubDate>Wed, 21 Feb 2024 00:18:25 -0500</pubDate>
+      <guid>http://localhost:1313/pages/musical-arrangements/</guid>
+      <description>This section contains manuscript scores of works from the Spanish classical repertoire arranged by Barbara Solís, most for piano with viola.&#xA;Ms. Solís conceived of her duo arrangements as two parts that were complementary, with neither instrument taking a consistently solo role. She was particularly interested in exploring the viola’s capacity for musical colour to express the various moods of her chosen repertoire.&#xA;Although most of Ms. Solís’s arrangements are for piano with viola, she also arranged a few pieces for solo viola to accompany a dancer who plays finger cymbals or tambourine.</description>
+    </item>
+    <item>
+      <title>Andalucia</title>
+      <link>http://localhost:1313/pages/andalucia/</link>
+      <pubDate>Wed, 21 Feb 2024 00:18:10 -0500</pubDate>
+      <guid>http://localhost:1313/pages/andalucia/</guid>
+      <description>The Mystical Music of Andalucia, recorded in 2002 and published in 2004, features four solo works for piano and seven of Barbara Solís’s arrangements for viola and piano.&#xA;Copies of the manuscript scores of Ms. Solís’s arrangements heard on this recording are available on this website (see Musical arrangements by Barbara Solís).</description>
+    </item>
+    <item>
+      <title>Biography</title>
+      <link>http://localhost:1313/pages/biography/</link>
+      <pubDate>Wed, 21 Feb 2024 00:17:42 -0500</pubDate>
+      <guid>http://localhost:1313/pages/biography/</guid>
+      <description>Barbara Solís (b. June 29, 1931; d. February 2, 2010), A.R.C.T., B.Mus., was born in Edmonton, Alberta, Canada. She began musical studies at age four and showed early promise, receiving the highest examination marks in the province at age six. In 1963, she became a piano pupil of Lloyd Powell of Vancouver.&#xA;Ms.Solís began studies at the Victoria Conservatory of Music in 1973 and achieved her A.R.C.T. (Associate of the Royal Conservatory of Music, University of Toronto) in piano performance in 1975.</description>
+    </item>
   </channel>
 </rss>
