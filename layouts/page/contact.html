@@ -1,0 +1,49 @@
+{{ define "main" }}
+  
+<main>
+  <div class="main">
+    <section class="main-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-lg-8">
+            <h1 class="red-border mb-2">Contact Us</h1>
+            <h3 class="margin-bottom neutral">If you need assistance, please reach out by emailing us at <em>james.kgg@gmail.com</em>, or using the contact form below.</h3>
+            <form id="contact-form" action="mail.php" method="POST">
+
+              <!-- Name input -->
+              <div class="form-outline mb-4">
+                <input type="text" id="name" name="name" class="form-control" />
+                <label class="form-label" for="name">Name</label>
+              </div>
+
+              <!-- Email input -->
+              <div class="form-outline mb-4">
+                <input type="email" id="email" name="email" class="form-control" />
+                <label class="form-label" for="email">Email address</label>
+              </div>
+
+              <!-- Subject input -->
+              <div class="form-outline mb-4">
+                <input type="text" id="subject" name="subject" class="form-control" />
+                <label class="form-label" for="subject">Subject</label>
+              </div>
+
+              <!-- Message input -->
+              <div class="form-outline mb-4">
+                <textarea class="form-control" id="message" name="message" rows="4"></textarea>
+                <label class="form-label" for="message">Message</label>
+              </div>
+
+              <!-- Submit button -->
+              <button id="submit-form" type="submit" class="btn btn-success contact-btn mb-4">
+                Send
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</main>
+
+{{ end }}
