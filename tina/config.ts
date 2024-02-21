@@ -48,6 +48,18 @@ export default defineConfig({
           },
         ],
       },
+      {
+        name: "page",
+        label: "Page",
+        path: "content/pages",
+        format: "md",
+        fields: [
+          {
+            name: "title",
+            type: "string",
+          },
+        ],
+      },
     ],
   },
 });
