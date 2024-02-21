@@ -15,9 +15,6 @@
   "dependencies": {
     "tinacms": "^1.5.28"
   },
-  "scripts": {
-    "dev": "npx tinacms build && hugo"
-  },
   "devDependencies": {
     "typescript": "^5.2.2",
     "@tinacms/cli": "^1.5.39",
