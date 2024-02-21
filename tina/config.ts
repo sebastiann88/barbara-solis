@@ -15,12 +15,12 @@ export default defineConfig({
   token: process.env.TINA_TOKEN || "",
 
   build: {
-    outputFolder: "admin",
+    outputFolder: "public",
     publicFolder: "static",
   },
   media: {
     tina: {
-      mediaRoot: "static/img",
+      mediaRoot: "assets",
       publicFolder: "static",
     },
   },
