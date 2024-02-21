@@ -22,7 +22,7 @@
                   {{ if .Params.categories }}
                     - in
                     {{ range .Params.categories }}
-                    <a href="{{ '/categories/' | relLangURL }}{{ . | urlize }}" class="article-category">{{ . }}</a>
+                    <a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}" class="article-category">{{ . }}</a>
                     {{ end }}
                   {{ end }}
                 </div>
@@ -88,7 +88,7 @@
                 <div class="blog-single-tags">
                   <ul class="list-unstyled list-inline">
                     {{ range .Params.tags }}
-                    <li><a href="{{ '/tags/' | relLangURL }}{{ . | urlize }}">{{ . }}</a></li>
+                    <li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></li>
                     {{ end }}
                   </ul>
                 </div>

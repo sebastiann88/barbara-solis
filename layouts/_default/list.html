@@ -25,7 +25,7 @@
                 <a href="" class="article-time">{{ dateFormat "Monday, Jan 2, 2006" .Date }}</a>
                 {{ if .Params.categories }}
                 {{ range .Params.categories }}
-                <a href="{{ '/categories/' | relLangURL }}{{ . | urlize }}" class="article-category">{{ . }}</a>
+                <a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}" class="article-category">{{ . }}</a>
                 {{ end }}
                 {{ end }}
               </div>
