@@ -292,6 +292,13 @@ section.biography > div {
 	padding: 0 0.825em 0.85em;
 }
 
+section.main-biography {
+	background-color: #f0eee5;
+	margin: 1.75em 0 2.25em;
+	padding: 1.125em 0;
+	box-shadow: #e7e2d7 4px 4px 24px 2px;
+}
+
 /* Audio & Media */
 
 div.media-container, .card {
