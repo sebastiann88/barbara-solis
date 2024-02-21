@@ -2,9 +2,12 @@
   "name": "barbara-solis",
   "version": "1.0.0",
   "description": "A website to honour the memory of Barbara Solis.",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "dev": "vite",
+  "build": "tsc && vite build",
+  "preview": "vite preview"
   },
   "keywords": [],
   "author": "",
@@ -12,8 +15,14 @@
   "dependencies": {
     "tinacms": "^1.5.28"
   },
+  "scripts": {
+    "dev": "npx tinacms build && hugo"
+  },
   "devDependencies": {
+    "typescript": "^5.2.2",
     "@tinacms/cli": "^1.5.39",
-    "@types/node": "^20.11.19"
+    "@types/node": "^20.11.19",
+    "vite": "^5.1.4"
   }
 }
+
