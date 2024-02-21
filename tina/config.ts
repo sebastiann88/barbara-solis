@@ -7,9 +7,9 @@ export default defineConfig({
   branch,
 
   // Get this from tina.io
-  clientId: "b6b3d5aa-e419-4078-abb0-b4c83853d434",
+  clientId: process.env.TINA_CLIENT_ID || "",
   // Get this from tina.io
-  token: '455a6fbadab3dba70040a4ee42dda8a819376af1',
+  token: process.env.TINA_TOKEN || "",
 
   build: {
     outputFolder: "admin",
@@ -69,7 +69,7 @@ export default defineConfig({
   },
   search: {
     tina: {
-      indexerToken: '7c8e37d8feafd0b27b0109e7fc39f9ded5d48c9d',
+      indexerToken: process.env.TINA_SEARCH || "",
       stopwordLanguages: ['eng'],
     },
     indexBatchSize: 100,
