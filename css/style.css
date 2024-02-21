@@ -235,6 +235,10 @@ nav.navigation-menu {
 }
 
 .red-border {
+	padding-top: 0.45em;
+}
+
+.red-border-biography {
 	padding-top: 1.125em;
 }
 
@@ -506,7 +510,8 @@ footer p {
 }
 
 @media (min-width: 992px) {
-	.red-border {
+	.red-border,
+	.red-border-biography {
 		border-top: 35px solid #d60000;
 	}
 
