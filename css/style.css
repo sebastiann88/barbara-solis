@@ -180,6 +180,13 @@ section.home-main-header {
 	text-decoration: underline;
 }
 
+nav.navigation-menu {
+	/*  background-color: #f8f6ef;*/
+	background-color: rgba(248, 246, 239, 0.97);
+	overflow: hidden;
+	width: 16em!important;
+}
+
 nav.navigation-menu .sidenav-collapse .sidenav-link {
 	padding: 15px 3px 15px 18px;
 }
@@ -208,12 +215,6 @@ nav.navigation-menu .sidenav-collapse .sidenav-link {
 
 .sidenav-collapse .sidenav-link {
 	padding-left: 2.75em;
-}
-
-nav.navigation-menu {
-	/*  background-color: #f8f6ef;*/
-	background-color: rgba(248, 246, 239, 0.97);
-	overflow: hidden;
 }
 
 /* Genereal */
@@ -520,7 +521,7 @@ footer p {
 
 	div.main > section,
 	footer {
-		padding-left: 16.15em;
+		padding-left: 16em;
 	}
 
 	.sidenav {
