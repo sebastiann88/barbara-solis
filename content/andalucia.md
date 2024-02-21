@@ -1,4 +1,5 @@
 +++
+layout = 'andalucia'
 title = 'Andalucia'
 date = 2024-02-21T00:18:10-05:00
 draft = true
