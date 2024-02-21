@@ -2,18 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://barbara-solis.vercel.app/</loc>
+    <loc>https://example.org/</loc>
     <lastmod>2024-02-21T00:21:04-05:00</lastmod>
   </url><url>
-    <loc>https://barbara-solis.vercel.app/pages/</loc>
+    <loc>https://example.org/pages/</loc>
     <lastmod>2024-02-21T00:21:04-05:00</lastmod>
   </url><url>
-    <loc>https://barbara-solis.vercel.app/categories/</loc>
+    <loc>https://example.org/categories/</loc>
   </url><url>
-    <loc>https://barbara-solis.vercel.app/posts/hello-world/</loc>
+    <loc>https://example.org/posts/hello-world/</loc>
   </url><url>
-    <loc>https://barbara-solis.vercel.app/posts/</loc>
+    <loc>https://example.org/posts/</loc>
   </url><url>
-    <loc>https://barbara-solis.vercel.app/tags/</loc>
+    <loc>https://example.org/tags/</loc>
   </url>
 </urlset>
