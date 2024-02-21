@@ -1,0 +1,104 @@
+{{ define "main" }}
+
+<!-- ==============================
+/////// Begin body content ///////
+=============================== -->
+<div id="body-content">
+  <!-- ============================
+  ///// Begin content section /////
+  ============================= -->
+  <section class="portfolio-list-grid gallery">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+
+          <!-- Begin content wrap -->
+          <div class="content-wrap">
+
+            <!-- Begin isotope
+            ===================
+            * Use classes "gutter-1", "gutter-2" or "gutter-3" to add more space between items.
+            * Use class "col-1", "col-2", "col-3", "col-4", "col-5" or "col-6" for columns.
+            -->
+            <div class="isotope gutter-3 col-4">
+
+              <div id="home" class="slider-section camera-full gallery-slider">
+                <div id="main-slider" class="camera_wrap camera-full camera_emboss pattern_1">
+                    <div data-src="/images/portrait10.jpg"></div>
+                    <div data-src="/images/portrait11.jpg"></div>
+                </div>
+              </div><!-- slider-section -->
+
+              <!-- Begin gallery top content -->
+              <div class="gallery-top-content">
+
+                <div class="row margin-bottom-40">
+                  <div class="col-md-8">
+
+                    <!-- Begin isotope filter -->
+                    <div class="isotope-filter">
+
+                      <!-- Begin isotope filter toggle button -->
+                      <div class="navbar-header visible-xs">
+                        <button type="button" class="navbar-toggle collapsed filter-toggle-btn filter-btn-hidden" data-toggle="collapse" data-target="#isotope-filter-collapse">
+                          <span class="text-center">Filter <i class="fas fa-chevron-down"></i></span>
+                        </button>
+                      </div>
+                      <!-- End isotope filter toggle button -->
+
+                      <!-- Begin isotope filter links -->
+                      <!-- <div class="isotope-filter-links collapse navbar-collapse padding-top" id="isotope-filter-collapse">
+                        <a class="active" href="#" data-filter="*">all</a>
+                        <a href="#" data-filter=".portrait">Portrait</a>
+                        <a href="#" data-filter=".fashion">Fashion</a>
+                        <a href="#" data-filter=".music">Music</a>
+                      </div> -->
+                      <!-- End isotope filter links -->
+
+                    </div>
+                    <!-- End isotope filter -->
+                    
+                  </div> <!-- /.col -->
+
+                </div> <!-- /.row -->
+
+              </div>
+              <!-- End gallery top content -->
+
+              <!-- Begin isotope items (album list items) 
+              ============================================= 
+              * Use class "caption-gradient" to enable gradient caption.
+              * Use class "caption-outside" to enable caption outside.
+              * Use class "caption-dark" to enable dark caption (no effect if "caption-gradient" or "caption-outside" is used).
+              * Use class "caption-boxed" to enable boxed caption (no effect if "caption-gradient" or "caption-outside" is used).
+              * Use class "caption-sm", "caption-lg" or "caption-xlg" to change caption size.
+              * Use classes "ali-style-1", "ali-style-2" to change album list item style (no effect if "gutter-1" is used).
+              * Note: For grid layout make sure that your //images are the same dimensions.
+              * Note: For masonry layout make sure that your //images are the different dimensions.
+              -->
+
+              <section id="photos" class="padding padding-top">
+                <div class="isotope-items-wrap ali-style-2 caption-outside">
+                    <!-- Grid sizer (do not remove!!!) -->
+                    <div class="grid-sizer"></div>
+                    {{- partial "photography/music.html" . -}}
+                </div>
+                <!-- End isotope items wrap -->
+              </section>
+
+            </div>
+            <!-- End isotope -->
+
+          </div>
+          <!-- End content wrap -->
+          
+        </div> <!-- /.col -->
+      </div> <!-- /.row -->
+
+    </div> <!-- /.container -->
+  </section>
+  <!-- End content section -->
+</div>
+<!-- End body content -->
+
+{{ end }}

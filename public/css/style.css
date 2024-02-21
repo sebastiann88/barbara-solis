@@ -1,0 +1,557 @@
+/* Main */
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+main {
+	position: relative;
+	background-color: rgba(240, 234, 214, 0.95);
+	font-family: "Oxygen", sans-serif;
+	color: #523c3c;
+	flex: 1;
+}
+
+main:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.45;
+  background-image: url("../img/pattern.png");
+	background-position: center;
+  background-size: 30em;
+  background-repeat: repeat;
+  background-position: 50% 0;
+}
+
+main > div.main {
+	position: relative;
+  margin-top: 4.125em;
+}
+
+/* Typography */
+
+h1 {
+  font-family: "Raleway", "Helvetica", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+	line-height: 1.025;
+	font-size: 2.75rem;
+	margin-bottom: 0.35em;
+}
+
+.h1 {
+	font-family: "Raleway", "Helvetica", sans-serif;
+  font-optical-sizing: auto;
+}
+
+h2 {
+	font-family: "Raleway", "Helvetica", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 1.925em;
+  font-style: normal;
+}
+
+h3, h4, h5, h6 {
+	font-family: "Raleway", "Helvetica", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+}
+
+h3 {
+	color: #d60000;
+	font-size: 1.5em;
+}
+
+p, li, a, .sidenav-link {
+	font-family: "Oxygen", sans-serif;
+	font-size: 20px;
+	line-height: 1.35;
+}
+
+figure {
+	margin-bottom: 0;
+}
+
+ul li::marker {
+	font-family: "Raleway", "Helvetica", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #d60000;
+}
+
+a {
+	color: #d60000;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+figcaption {
+	margin-top: 0.5em;
+}
+
+strong, em, .red {
+	color: #d60000;
+	font-weight: inherit;
+	font-style: inherit;
+}
+
+/*.first-letter:first-letter {
+    text-transform: uppercase;
+    initial-letter: 2;
+    -webkit-initial-letter: 2;
+    padding: 0 5px;
+    color: #d60000;
+}*/
+
+.margin-top {
+	margin-top: 1.25em;
+}
+
+.margin-bottom {
+	margin-bottom: 1.25em;
+}
+
+.margin-right {
+	margin-right: 1.25em;
+}
+
+.margin-sketch-right {
+	margin-right: 1.85em;
+}
+
+.margin-portrait-right {
+	margin-right: 1.25em;
+}
+
+/* Header */
+
+.jumbotron {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	height: 22.5em;
+}
+
+section.main-header {
+	margin: 1.125em auto 0.25em;
+	padding: 0 0 1.25em;
+}
+
+section.home-main-header {
+	margin: 1.125em auto 0;
+	padding: 0;
+}
+
+/* Navigation */
+
+.sidenav-collapse .sidenav-link {
+	font-size: 15px;
+}
+
+.sidenav-primary .sidenav-item .sidenav-link:hover {
+	color: #d60000;
+}
+
+.sidenav {
+	z-index: 1035;
+	padding-top: 4.125em;
+	width: 16.15em;
+}
+
+.sidenav-item a {
+	font-size: 16px;
+	padding: 0 8px;
+}
+
+.sidenav-item a:hover {
+	text-decoration: underline;
+}
+
+nav.navigation-menu {
+	/*  background-color: #f8f6ef;*/
+	background-color: rgba(248, 246, 239, 0.97);
+	overflow: hidden;
+	width: 16em!important;
+}
+
+nav.navigation-menu .sidenav-collapse .sidenav-link {
+	padding: 15px 3px 15px 18px;
+}
+
+.btn-red-menu {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1045;
+	color: #fff;
+	padding: 0.45em 0.95em;
+	background-color: #d60000;
+	border: none!important;
+	border-radius: 0 0 0.25rem 0;
+	box-shadow: none!important;
+}
+
+.btn-red-menu:focus,
+.btn-red-menu:active
+.btn-red-menu:hover {
+	color: #fff;
+	background-color: #d60000;
+	border: none!important;
+	box-shadow: none!important;
+}
+
+.sidenav-collapse .sidenav-link {
+	padding-left: 2.75em;
+}
+
+/* Genereal */
+
+.flex {
+	display: flex;
+}
+
+.flex-top {
+	display: flex;
+  flex-direction: column;
+  align-content: start;
+}
+
+.flex-center {
+	display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.red-border {
+	padding-top: 0.45em;
+}
+
+.red-border-biography {
+	padding-top: 1.125em;
+}
+
+.bottom-red-border {
+	border-bottom: 35px solid #d60000;
+}
+
+.roses {
+	display: block;
+	margin: 2.25em auto;
+}
+
+.center {
+	display: block;
+	text-align: center;
+}
+
+.left {
+	text-align: left;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.barbara-intro {
+	padding: 0 1.5rem;
+}
+
+.inner-padding {
+	padding: 0 1.75em;
+}
+
+.inline-block {
+	display: inline-block;
+}
+
+.neutral {
+	color: #332d2d;
+}
+
+span.date {
+	color: #685b5b;
+}
+
+/* Biography */
+
+section.biography {
+	background-color: #f0eee5;
+	margin: 1.75em 0 2.25em;
+	box-shadow: #e7e2d7 4px 4px 24px 2px;
+}
+
+section.biography > div {
+	padding: 0 0.825em 0.85em;
+}
+
+section.main-biography {
+	background-color: #f0eee5;
+	margin: 1.75em 0 2.25em;
+	padding: 1.125em 0;
+	box-shadow: #e7e2d7 4px 4px 24px 2px;
+}
+
+/* Audio & Media */
+
+div.media-container, .card {
+	display: flex;
+	position: relative;
+	background-color: rgba(240, 234, 214, 0.25);
+}
+
+div.media-container {
+	margin: 0 1.125em;
+}
+
+div.media-container div.bg-image {
+		height: auto;
+    max-height: 15em;
+}
+
+div.media-player:before {
+	content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.72;
+  z-index: 0;
+  background-image: url("../img/pattern.png");
+	background-position: center;
+  background-size: 10.75em;
+  background-repeat: repeat;
+  background-position: 50% 0;
+}
+
+div.media-player p {
+	font-size: 18px;
+}
+
+div.card-body {
+	z-index: 5;
+}
+
+/* Artwork */
+
+div.effect {
+    position: relative;
+    float: left;
+    overflow: hidden;
+}
+
+div.btn-group .btn-outline-secondary.active {
+	border-color: gray;
+}
+
+div.portfolio-container {
+	position: relative;
+	z-index: 100;
+}
+
+div.portfolio-container div.effect {
+	position: relative;
+}
+
+div.portfolio-container a.portfolio-piece {
+	font-size: 1.25em;
+	height: 100%;
+}
+
+a.portfolio-piece div.portfolio-item {
+	display: flex;
+	position: absolute;
+	justify-content: center;
+	align-items: center;
+	top: 0;
+	left: 0;
+  transform: scale(0); 
+  transition: all 300ms ease 0s;
+  background: rgba(75,75,75,.7);
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+  
+}
+
+a.portfolio-piece:hover div.portfolio-item {
+	color: #fff;
+	transform: scale(1);
+}
+
+.gd-portfolio {
+	font-size: 1.875em;
+}
+
+div.portfolio-filter {
+	font-size: 1em;
+}
+
+.btn-outline-secondary {
+	color: #685b5b;
+	border: 1px solid #685b5b;
+}
+
+.btn-outline-secondary:hover {
+	color: #685b5b;
+	border: 1px solid #9e9090!important;
+}
+
+div.btn-group .btn-outline-secondary.active {
+	color: #d60000;
+	border: 1px solid #d60000;
+}
+
+/* Card  */
+
+.card {
+	box-shadow: none;
+}
+
+.card img {
+	width: 100%;
+	height: auto;
+}
+
+.card-body {
+	padding: 1.5rem 0;
+}
+
+/* Carousel Item */
+
+.carousel-item {
+	display: flex;
+	align-items: center;
+	height: auto;
+	max-height: 26.5em;
+}
+
+.carousel-item h4 {
+	font-size: 1.625em;
+}
+
+.carousel-item p {
+	font-size: 1.125em;
+}
+
+.carousel-caption {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100%;
+}
+
+.carousel-caption p {
+	margin: 0;
+}
+
+figcaption {
+	font-size: 1.125em;
+	line-height: 1.25;
+}
+
+/* Contact */
+
+main form div.form-outline .form-control {
+	background-color: rgba(229, 216, 196, 0.5);
+}
+
+button.contact-btn {
+	width: 7.75em;
+}
+
+/* Footer */
+
+footer {
+	color: #fff;
+	background-color: #d60000;
+}
+
+section.footer {
+	padding: 2.25em 0 1.5em 0;
+	border-bottom: 1px solid #fff;
+}
+
+footer ul li {
+	list-style-type: none;
+	padding: 3px 0;
+}
+
+footer ul li a {
+	font-family: "Oxygen", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: #fff;
+}
+
+footer ul li a:hover {
+	text-decoration: underline;
+}
+
+footer p {
+	margin: 0;
+	padding: 0.5em 0 0.75em;
+}
+
+@media (min-width: 480px) {
+
+}
+
+@media (min-width: 768px) {
+
+	.btn-red-menu {
+		display: none;
+		visibility: hidden;
+	}
+
+	div.main > section,
+	footer {
+		padding-left: 16em;
+	}
+
+	.sidenav {
+		padding-top: 4.125em;
+	}
+
+}
+
+@media (min-width: 992px) {
+	.red-border,
+	.red-border-biography {
+		border-top: 35px solid #d60000;
+	}
+
+	.bottom-red-border {
+		border-bottom: none;
+	}
+
+	.margin-sketch-right {
+		margin-right: 1.125em;
+	}
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1550px) {
+		.margin-portrait-right {
+		margin-right: 0;
+	}
+}

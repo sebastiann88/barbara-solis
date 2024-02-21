@@ -1,0 +1,76 @@
+<!-- Right column -->
+<div class="col-md-4">
+
+  <!-- Begin sidebar 
+  ==================== -->
+  <div class="sidebar sidebar-right">
+    <div class="row">
+    
+      <div class="col-sm-12">
+        <!-- Begin sidebar widget -->
+        <div class="sidebar-widget sidebar-search no-margin-top">
+          <form id="blog-search-form">
+            <div class="form-group">
+              <input type="text" class="form-control" id="blog-search" name="search" placeholder="Search">
+              <button type="submit"><i class="fas fa-search"></i></button>
+            </div>
+          </form>
+        </div>
+        <!-- End sidebar widget -->
+      </div> <!-- /.col -->
+
+      {{ if .Site.Taxonomies.categories }}
+      <div class="col-md-12 col-sm-6">
+        <!-- Begin sidebar widget -->
+        <div class="sidebar-widget sidebar-categories">
+          <h3 class="sidebar-heading">Categories</h3>
+          <hr class="hr-short">
+          <ul class="list-unstyled">
+            {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+            {{ $url := printf "%s/%s" "categories" ($name | urlize | lower)}}
+            <li><a href="{{ $url | absURL }}">{{$name}}</a></li>
+            {{ end }}
+          </ul>
+        </div>
+        <!-- End sidebar widget -->
+      </div> <!-- /.col -->
+      {{ end }}
+
+      {{ if .Site.Taxonomies.tags }}
+      <div class="col-md-12 col-sm-6">
+        <!-- Begin sidebar widget -->
+        <div class="sidebar-widget sidebar-tags">
+          <h3 class="sidebar-heading">Popular Tags</h3>
+          <hr class="hr-short">
+          <ul class="list-unstyled">
+            {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+            {{ $url := printf "%s/%s" "tags" ($name | urlize | lower)}}
+            <li><a href="{{ $url | absURL }}">{{$name}}</a></li>
+            {{ end }}
+          </ul>
+        </div>
+        <!-- End sidebar widget -->
+      </div> <!-- /.col -->
+      {{ end }}
+
+      <div class="col-md-12 col-sm-6">
+        <!-- Begin sidebar widget -->
+        <div class="sidebar-widget sidebar-subscribe">
+          <h3 class="sidebar-heading">Subscribe</h3>
+          <hr class="hr-short">
+          <p class="small">Follow our latest news:</p>
+          <form id="subscribe-form" class="form-with-button">
+            <div class="form-group">
+              <input type="email" class="form-control" id="subscribe" name="subscribe" placeholder="enter your email address..." required>
+              <button type="submit"><i class="fas fa-envelope-o"></i></button>
+            </div>
+          </form>
+        </div>
+        <!-- End sidebar widget -->
+      </div> <!-- /.col -->
+
+    </div> <!-- /.row -->
+  </div>
+  <!-- End sidebar -->
+
+</div> <!-- /.col (Right column) -->
