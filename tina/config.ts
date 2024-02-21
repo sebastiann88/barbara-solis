@@ -8,8 +8,6 @@ const branch =
   "main";
 
 export default defineConfig({
-  // This is the url to your graphql endpoint
-  contentApiUrlOverride: '/api/tina/gql',
   
   branch: process.env.COMMIT_REF || "",
 
