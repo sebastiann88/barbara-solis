@@ -1,9 +1,7 @@
-+++
-layout = 'musical-arrangements'
-title = 'Musical Arrangements'
-date = 2024-02-21T00:18:25-05:00
-draft = true
-+++
+---
+layout: musical-arrangements
+title: Musical Arrangements
+---
 
 This section contains manuscript scores of works from the Spanish classical repertoire arranged by Barbara Solís, most for piano with viola.
 

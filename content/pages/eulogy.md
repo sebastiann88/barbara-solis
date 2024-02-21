@@ -1,9 +1,7 @@
-+++
-layout = 'eulogy'
-title = 'Eulogy'
-date = 2024-02-21T00:20:52-05:00
-draft = true
-+++
+---
+layout: eulogy
+title: Eulogy
+---
 
 Good evening, all. It is a sad occasion for us to be here, of course, but I would like to thank the Solís family for having this memorial service here, and for bringing us together today to remember Barbara in all the ways that she influenced us, in some ways subtly and in other ways profoundly.
 

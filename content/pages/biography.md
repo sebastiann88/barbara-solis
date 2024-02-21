@@ -1,9 +1,7 @@
-+++
-layout = 'biography'
-title = 'Biography'
-date = 2024-02-21T00:17:42-05:00
-draft = true
-+++
+---
+layout: biography
+title: Biography
+---
 
 Barbara Solís (b. June 29, 1931; d. February 2, 2010), A.R.C.T., B.Mus., was born in Edmonton, Alberta, Canada. She began musical studies at age four and showed early promise, receiving the highest examination marks in the province at age six. In 1963, she became a piano pupil of Lloyd Powell of Vancouver.
 

@@ -1,9 +1,7 @@
-+++
-layout = 'method-of-teaching'
-title = 'Method of Teaching'
-date = 2024-02-21T00:19:53-05:00
-draft = true
-+++
+---
+layout: method-of-teaching
+title: Method of Teaching
+---
 
 For a period, Barbara Solís lived in at least one small community in Canada’s western region, in the province of Alberta. She taught piano during these years and in her later years as well.
 

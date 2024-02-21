@@ -1,10 +1,7 @@
-+++
-layout = 'research-papers'
-title = 'Research Papers'
-date = 2024-02-21T00:19:27-05:00
-draft = true
-+++
-
+---
+layout: research-papers
+title: Research Papers
+---
 
 Barbara Solís undertook Bachelor of Music studies at the University of Ottawa, graduating in 1996. During this time, she also studied aspects of Arabic culture.
 

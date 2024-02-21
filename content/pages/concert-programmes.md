@@ -1,10 +1,7 @@
-+++
-layout = 'concert-programmes'
-title = 'Concert Programmes'
-date = 2024-02-21T00:18:40-05:00
-draft = true
-+++
-
+---
+layout: concert-programmes
+title: Concert Programmes
+---
 
 Barbara Solís presented recitals in Spain in the 1970s, several of them for dignitaries. Her papers contain no concert programs from this period.
 

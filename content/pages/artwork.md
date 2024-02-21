@@ -1,9 +1,7 @@
-+++
-layout = 'artwork'
-title = 'Artwork'
-date = 2024-02-21T00:20:18-05:00
-draft = true
-+++
+---
+layout: artwork
+title: Artwork
+---
 
 Barbara Solís was a Canadian pianist who undertook a lifelong study of Spanish classical music. She was a recitalist, music teacher, researcher, lecturer, dancer and visual artist.
 
