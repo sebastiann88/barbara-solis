@@ -1,10 +1,7 @@
 import { defineConfig } from "tinacms";
 
-// Your hosting provider likely exposes this as an environment variable
-const branch = "main";
-
 export default defineConfig({
-  branch,
+  branch: "main",
 
   // Get this from tina.io
   clientId: process.env.TINA_CLIENT_ID || "",
