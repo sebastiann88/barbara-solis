@@ -50,7 +50,7 @@ export default defineConfig({
       {
         name: "page",
         label: "Page",
-        path: "content/pages",
+        path: "content",
         format: "md",
         fields: [
           {
