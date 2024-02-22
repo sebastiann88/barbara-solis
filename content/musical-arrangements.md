@@ -53,7 +53,7 @@ Readers are welcome to download copies of Barbara Solís’s musical arrangement
 
 * [Cancion y Danza V](# "Cancion y Danza V") (arranged for piano with viola)
 * [Cancion y Danza VI](# "Cancion y Danza VI") (arranged for piano with viola)
-* [Cancion y Danza IX](# "Cancion y Danza IX")[ (arranged for piano with viola)](# "Cancion y Danza X")
+* [Cancion y Danza IX](# "Cancion y Danza IX") (arranged for piano with viola)
 * [Cancion y Danza X](# "Cancion y Danza X") (arranged for piano with viola)
 
 ## Joaquin Nin
