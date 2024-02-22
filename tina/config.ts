@@ -4,49 +4,48 @@ import { defineConfig } from "tinacms";
 const branch =
   process.env.GITHUB_BRANCH ||
   process.env.VERCEL_GIT_COMMIT_REF ||
-  process.env.HEAD
+  process.env.HEAD ||
+  "main";
 
 export default defineConfig({
-  
   branch,
+
   // Get this from tina.io
-  clientId: process.env.TINA_CLIENT_ID || "",
+  clientId: process.env.TINA_CLIENT_ID,
   // Get this from tina.io
-  token: process.env.TINA_TOKEN || "",
+  token: process.env.TINA_TOKEN,
 
   build: {
-    outputFolder: "public",
+    outputFolder: "admin",
     publicFolder: "static",
   },
   media: {
     tina: {
-      mediaRoot: "assets",
+      mediaRoot: "",
       publicFolder: "static",
     },
   },
   // See docs on content modeling for more info on how to setup new content models: https://tina.io/docs/schema/
   schema: {
     collections: [
-      // {
-      //   name: "post",
-      //   label: "Posts",
-      //   path: "content/posts",
-      //   fields: [
-      //     {
-      //       type: "string",
-      //       name: "title",
-      //       label: "Title",
-      //       isTitle: true,
-      //       required: true,
-      //     },
-      //     {
-      //       type: "rich-text",
-      //       name: "body",
-      //       label: "Body",
-      //       isBody: true,
-      //     },
-      //   ],
-      // },
+    // {
+    // name: "post",
+    // label: "Posts",
+    // path: "content/posts",
+    // fields: [
+    //   {
+    //     type: "string",
+    //     name: "title",
+    //     label: "Title",
+    //     isTitle: true,
+    //     required: true,
+    //   },
+    //   {
+    //     type: "rich-text",
+    //     name: "body",
+    //     label: "Body",
+    //     isBody: true,
+    //   },
       {
         name: "page",
         label: "Page",
