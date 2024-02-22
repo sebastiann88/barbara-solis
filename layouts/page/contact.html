@@ -7,7 +7,9 @@
         <div class="row">
           <div class="col-sm-12 col-lg-8">
             <h1 class="red-border mb-2">Contact Us</h1>
-            <h3 class="margin-bottom neutral">If you need assistance, please reach out by emailing us at <em>james.kgg@gmail.com</em>, or using the contact form below.</h3>
+            <div class="margin-bottom neutral">
+              {{ .Content }}
+            </div>
             <form id="contact-form" action="mail.php" method="POST">
 
               <!-- Name input -->
