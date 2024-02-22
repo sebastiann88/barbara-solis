@@ -5,14 +5,15 @@
     <section class="main-header">
       <div class="container">
         <div class="row">
-          <figure class="col-sm-12 col-lg-4 flex-center">
+          <figure class="col-sm-12 col-lg-4 flex-center lightbox" data-mdb-lightbox-init>
             <a data-mdb-ripple-init data-mdb-ripple-color="light">
-              <img class="img-fluid" src="/img/portrait.png">
+              <img class="img-fluid" src="/img/portrait.png" data-mdb-img="/img/portrait.png">
             </a>
           </figure>
+
           <div class="col-sm-12 col-lg-7">
-            <h1 class="red-border mb-1">Portrait of <em>Barbara Solís</em></h1>
-            <h3 class="mt-0 mb-3">by Cheryl Gellman</h3>
+            <h1 class="red-border mb-3">Portrait of <em>Barbara Solís</em> by Cheryl&nbsp;Gellman</h1>
+            <!-- <h3 class="mt-0 mb-3">by Cheryl Gellman</h3> -->
             {{ .Content }}
           </div>
         </div>

@@ -2,42 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://barbara-solis.vercel.app/andalucia/</loc>
+    <loc>http://localhost:1313/andalucia/</loc>
   </url><url>
-    <loc>https://barbara-solis.vercel.app/artwork/</loc>
+    <loc>http://localhost:1313/artwork/</loc>
   </url><url>
-    <loc>https://barbara-solis.vercel.app/</loc>
+    <loc>http://localhost:1313/</loc>
   </url><url>
-    <loc>https://barbara-solis.vercel.app/biography/</loc>
+    <loc>http://localhost:1313/biography/</loc>
   </url><url>
-    <loc>https://barbara-solis.vercel.app/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://barbara-solis.vercel.app/concert-programmes/</loc>
+    <loc>http://localhost:1313/contact/</loc>
   </url><url>
-    <loc>https://barbara-solis.vercel.app/contact/</loc>
+    <loc>http://localhost:1313/culture-of-death/</loc>
   </url><url>
-    <loc>https://barbara-solis.vercel.app/culture-of-death/</loc>
+    <loc>http://localhost:1313/eulogy/</loc>
   </url><url>
-    <loc>https://barbara-solis.vercel.app/eulogy/</loc>
+    <loc>http://localhost:1313/posts/hello-world/</loc>
   </url><url>
-    <loc>https://barbara-solis.vercel.app/posts/hello-world/</loc>
+    <loc>http://localhost:1313/method-of-teaching/</loc>
   </url><url>
-    <loc>https://barbara-solis.vercel.app/method-of-teaching/</loc>
+    <loc>http://localhost:1313/musical-arrangements/</loc>
   </url><url>
-    <loc>https://barbara-solis.vercel.app/musical-arrangements/</loc>
+    <loc>http://localhost:1313/notes-lecture-recitals/</loc>
   </url><url>
-    <loc>https://barbara-solis.vercel.app/notes-lecture-recitals/</loc>
+    <loc>http://localhost:1313/photos/</loc>
   </url><url>
-    <loc>https://barbara-solis.vercel.app/photos/</loc>
+    <loc>http://localhost:1313/portrait/</loc>
   </url><url>
-    <loc>https://barbara-solis.vercel.app/portrait/</loc>
+    <loc>http://localhost:1313/posts/</loc>
   </url><url>
-    <loc>https://barbara-solis.vercel.app/posts/</loc>
+    <loc>http://localhost:1313/research-notes/</loc>
   </url><url>
-    <loc>https://barbara-solis.vercel.app/research-notes/</loc>
+    <loc>http://localhost:1313/research-papers/</loc>
   </url><url>
-    <loc>https://barbara-solis.vercel.app/research-papers/</loc>
-  </url><url>
-    <loc>https://barbara-solis.vercel.app/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>

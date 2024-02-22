@@ -1,6 +1,6 @@
 ---
-layout: artwork
-title: Artwork
+layout: artwork-photos
+title: Artwork & Photos
 ---
 
 Barbara Solís was a Canadian pianist who undertook a lifelong study of Spanish classical music. She was a recitalist, music teacher, researcher, lecturer, dancer and visual artist.

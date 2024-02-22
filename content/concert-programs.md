@@ -1,6 +1,6 @@
 ---
-title: Concert Programmes
-layout: concert-programmes
+title: Concert Programs
+layout: concert-programs
 ---
 
 Barbara Solís presented recitals in Spain in the 1970s, several of them for dignitaries. Her papers contain no concert programs from this period.
