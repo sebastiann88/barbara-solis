@@ -17,7 +17,7 @@ Ms. Solís always performed in Spanish dress for her recitals in Ottawa, and she
 * 1996, May 24 - B.Mus. recital at University of Ottawa
 * 1997, Oct 26 - An Evening in Old Madrid, First Unitarian Congregation
 * 1998, Jun 6 - Musical Arts Club of Ottawa, First Unitarian Congregation
-* 1998, Nov 22 - A Visit to Spain, St. Luke’s\</li>
+* 1998, Nov 22 - A Visit to Spain, St. Luke’s
 * 1999, May 30 - The Music of Spain, Gloucester City Hall
 * 1999, Oct 24 - An Evening in Old Madrid - St. Luke’s
 * 2000, Nov 5 - The Exotic Music of Spain, First Unitarian Congregation\</li>
