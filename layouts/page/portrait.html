@@ -5,16 +5,17 @@
     <section class="main-header">
       <div class="container">
         <div class="row">
-          <figure class="col-sm-12 col-lg-4 flex-center lightbox" data-mdb-lightbox-init>
-            <a data-mdb-ripple-init data-mdb-ripple-color="light">
-              <img class="img-fluid" src="/img/portrait.png" data-mdb-img="/img/portrait.png">
-            </a>
-          </figure>
-
-          <div class="col-sm-12 col-lg-7">
-            <h1 class="red-border mb-3">Portrait of <em>Barbara Solís</em> by Cheryl&nbsp;Gellman</h1>
-            <!-- <h3 class="mt-0 mb-3">by Cheryl Gellman</h3> -->
-            {{ .Content }}
+          <div class="col-sm-12 col-lg-9">
+            <figure class="col-sm-12 col-lg-5 flex-center float-start margin-portrait-right lightbox" data-mdb-lightbox-init>
+              <a data-mdb-ripple-init data-mdb-ripple-color="light">
+                <img class="img-fluid" src="/img/portrait.png" data-mdb-img="/img/portrait.png">
+              </a>
+              <figcaption><em>Oil on canvas</em>, 40 inches × 30 inches, painted from “life” sessions. Reproduced with generous permission of the artist.</figcaption>
+            </figure>
+            <article class="red-border-biography">
+              <h1 class="mb-3">Portrait of <em>Barbara Solís</em> by Cheryl&nbsp;Gellman</h1>
+              {{ .Content }}
+            </article>
           </div>
         </div>
       </div>

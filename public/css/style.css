@@ -163,6 +163,10 @@ strong, em {
 	margin-right: 1.25em;
 }
 
+.padding-left {
+	padding-left: 0.75em;
+}
+
 /* Header */
 
 .jumbotron {
@@ -570,6 +574,14 @@ footer p {
 }
 
 @media (min-width: 768px) {
+	.red-border,
+	.red-border-biography {
+		border-top: 35px solid #d60000;
+	}
+
+	.bottom-red-border {
+		border-bottom: none;
+	}
 
 	.btn-red-menu {
 		display: none;
@@ -587,15 +599,6 @@ footer p {
 }
 
 @media (min-width: 992px) {
-	.red-border,
-	.red-border-biography {
-		border-top: 35px solid #d60000;
-	}
-
-	.bottom-red-border {
-		border-bottom: none;
-	}
-
 	.margin-sketch-right {
 		margin-right: 1.125em;
 	}
@@ -608,7 +611,5 @@ footer p {
 }
 
 @media (min-width: 1550px) {
-		.margin-portrait-right {
-		margin-right: 0;
-	}
+
 }
