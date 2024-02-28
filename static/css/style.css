@@ -358,6 +358,10 @@ section.main-biography {
 
 /* Audio & Media */
 
+audio {
+	width: 100%;
+}
+
 div.media-container, .card {
 	display: flex;
 	position: relative;
