@@ -10,7 +10,8 @@
     "tinacms": "^1.5.28"
   },
   "scripts": {
-    "dev": "npx tinacms build && hugo"
+    "dev": "tinacms dev -c \"hugo server -D\"",
+    "build": "tinacms build && hugo"
   },
   "devDependencies": {
     "@tinacms/cli": "^1.5.39",
