@@ -46,7 +46,7 @@ Readers are welcome to download copies of Barbara Solís’s musical arrangement
 * [Orientale](# "Orientale") (arranged for piano with viola)
 * Playera (No.5) Andaluza (arranged for dancer with tambourine accompanied by solo viola)\*
 * Spanish Dance No. 9: Romantica (arranged for piano with viola)
-* [Valses Poeticos](# "Valses Poeticos") (arranged for piano with viola)
+* Valses Poeticos (arranged for piano with viola)
 * [Zapateado](# "Zapateado") (arranged for piano with viola)
 
 ## Federico Mompou
