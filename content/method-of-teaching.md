@@ -3,7 +3,7 @@ title: Method of Teaching
 layout: method-of-teaching
 ---
 
-For a period, Barbara Solís lived in at least one small community in Canada’s western region, in the province of Alberta. She taught piano during these years and in her later years as well.
+For a period, [Barbara Solís](https://storage.googleapis.com/barbara-solis/Photos/andalucia.png "Barbara Solís") lived in at least one small community in Canada’s western region, in the province of Alberta. She taught piano during these years and in her later years as well.
 
 In her undated manuscript “The Barbara Solís Method of Teaching,” Ms. Solís aimed to provide a method of musical instruction that would provide students with a foundation they could benefit from when a music teacher was not available in a small community. Ms. Solís referred to her teaching method in her artist biography in the 1988–89 edition of Alberta Performing Artists.
 
