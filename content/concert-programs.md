@@ -20,7 +20,7 @@ Ms. Solís always performed in Spanish dress for her recitals in Ottawa, and she
 * 1998, Nov 22 - A Visit to Spain, St. Luke’s
 * 1999, May 30 - The Music of Spain, Gloucester City Hall
 * 1999, Oct 24 - An Evening in Old Madrid - St. Luke’s
-* 2000, Nov 5 - The Exotic Music of Spain, First Unitarian Congregation
+* [2000, Nov 5 - The Exotic Music of Spain, First Unitarian Congregation](https://storage.googleapis.com/barbara-solis/Concert%20Programs/2000%2C%20Nov%205%20-%20The%20Exotic%20Music%20of%20Spain%2C%20Unitarian%20Congregation/2000%2C%20Nov%205%20-%20The%20Exotic%20Music%20of%20Spain%2C%20Concert%20poster.pdf "2000, Nov 5 - The Exotic Music of Spain, First Unitarian Congregation")
 * 2001, May 6 - Arabian Nights in Spain, St. Luke’s
 * 2001, Oct 27 - Musical Arts Club of Ottawa, First Unitarian Congregation
 * 2002, May 5 - Mystical Music of Andalucia, St. Luke’s
