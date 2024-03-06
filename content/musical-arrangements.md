@@ -21,10 +21,6 @@ Readers are welcome to download copies of Barbara Solís’s musical arrangement
 
 * [Danza oriental](# "Danza oriental") (arranged for dancer with finger cymbals accompanied by solo viola)
 * [En la Alhambra](# "En la Alhambra") (arranged for piano with viola)
-
-1. Hello
-2. Hello
-
 * [En la Playa](# "En la Playa") (arranged for piano with viola)\*
 * [Granada](# "Granada") (arranged for two pianos)
 * [Serenata Andaluza](# "Serenata Andaluza") (arranged for piano with viola)
